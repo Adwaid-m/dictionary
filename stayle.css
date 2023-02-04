@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background-image: url(./img/reading-a-dictionary.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.wrapper{
+        width: 450px;
+}
+.wrapper .content{
+    background: linear-gradient(145deg, orange,blue);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 66);
+}
+.content h2{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid orange;
+    margin-bottom: 15px;
+}
+.content .form .input{
+    display: flex;
+    flex-direction: column;
+}
+.form .input input{
+    padding: 10px;
+    border:none ;
+    margin-bottom: 10px;
+}
+.form .input button{
+    width: 30%;
+    height: 30px;
+    font-size: 14px;
+    background: orange;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+.form .input button:hover{
+    background: green;
+}
+/* .volume_btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.volume_btn:hover{
+    color: antiquewhite;
+} */
+.result{
+    position: relative;
+}
+.result h3{
+    font-size: 30px;
+    color: rgb(255, 250, 250);
+
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+.result button{
+    background-color: transparent;
+    color: orange;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: rgb(238, 206, 146);
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+
+}
+.word-meaning{
+    color: beige;
+}
+.word-example{
+    color: orange;
+    font-style: italic;
+    border-left: 5px solid #c69c3c;
+    padding-left: 20px;
+    margin-top: 30px;
+}
